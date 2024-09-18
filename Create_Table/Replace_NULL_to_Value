@@ -1,0 +1,3 @@
+UPDATE foodrecommendation
+SET delivery_fee_min = 0.99, delivery_fee_max = 4.99
+WHERE cuisine IN ('Burgers', 'Mexican', 'European', 'American', 'Indian', 'Pizza', 'Non-alcoholic Drinks');

@@ -1,0 +1,25 @@
+
+INSERT INTO foodrecommendation (cuisine, number_of_orders, customer_id, commission_rate, delivery_fee_min, delivery_fee_max)
+VALUES
+('Fast Food', 10, 1, 0.25, 0.99, 4.99),
+('Cakes & Bakery', 2, 1, 0.25, 0.99, 4.99),
+('Western', 1, 1, 0.25, 1.25, 2.75),
+('Non-alcoholic Drinks', 1, 1, 0.25, NULL, NULL),
+('Chinese', 4, 1, 0.25, 2.45, 3.00),
+('Pizza', 5, 1, 0.25, NULL, NULL),
+('Thai', 1, 1, 0.25, 0.99, 1.99),
+('Indian', 1, 1, 0.25, NULL, NULL),
+('American', 2, 1, 0.25, NULL, NULL),
+('Vietnamese', 2, 1, 0.25, 0.99, 1.85),
+('Japanese', 2, 2, 0.25, 1.55, 2.35),
+('Malaysian', 1, 2, 0.25, 1.65, 2.00),
+('Healthy Food', 1, 3, 0.25, 0.99, 1.75),
+('European', 1, 3, 0.25, NULL, NULL),
+('Desserts', 2, 1, 0.25, 1.50, 2.00),
+('Korean', 2, 1, 0.25, 1.50, 2.00),
+('Mexican', 1, 3, 0.25, NULL, NULL),
+('Sandwiches', 3, 6, 0.25, 2.20, 2.85),
+('Asian', 3, 29, 0.25, 1.70, 2.00),
+('Italian', 2, 3, 0.25, 1.35, 1.99),
+('Burgers', 5, 3, 0.25, NULL, NULL),
+('Singaporean', 7, 1, 0.25, 1.99, 3.50);
