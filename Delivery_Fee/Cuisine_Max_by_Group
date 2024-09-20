@@ -1,0 +1,8 @@
+SELECT 
+    cuisine,
+    MIN(delivery_fee_max) AS lowest_delivery_fee_max,
+    AVG(delivery_fee_max) AS average_delivery_fee_max,
+    MAX(delivery_fee_max) AS highest_delivery_fee_max
+FROM foodrecommendation
+GROUP BY cuisine
+ORDER BY cuisine;

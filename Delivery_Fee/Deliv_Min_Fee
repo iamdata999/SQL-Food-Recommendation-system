@@ -1,0 +1,5 @@
+SELECT 
+    MIN(delivery_fee_min) AS lowest_delivery_fee_min,
+    AVG(delivery_fee_min) AS average_delivery_fee_min,
+    MAX(delivery_fee_min) AS highest_delivery_fee_min
+FROM foodrecommendation;
