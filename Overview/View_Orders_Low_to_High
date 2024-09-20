@@ -1,0 +1,3 @@
+SELECT *
+FROM foodrecommendation
+ORDER BY number_of_orders ASC;
