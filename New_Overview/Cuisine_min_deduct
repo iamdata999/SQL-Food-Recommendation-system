@@ -1,0 +1,2 @@
+SELECT cuisine, deduct_delivery_min
+FROM foodrecommendation;
