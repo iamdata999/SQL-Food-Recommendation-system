@@ -1,0 +1,8 @@
+SELECT
+    cuisine,
+    delivery_fee_min,
+    delivery_fee_max,
+    deduct_delivery_min,
+    deduct_delivery_max
+FROM foodrecommendation
+ORDER BY cuisine;
